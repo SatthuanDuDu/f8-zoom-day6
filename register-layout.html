@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./css/reset.css" />
+		<link rel="stylesheet" href="./css/styles.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+			integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<title>Registser</title>
+	</head>
+	<body class="register-app">
+		<div class="wrapper">
+			<div class="background-left">
+				<img
+					src="https://colorlib.com/etc/regform/colorlib-regform-15/images/signup-img.jpg"
+					alt=""
+				/>
+			</div>
+			<div class="form-right">
+				<p class="form-name">STUDENT REGISTRATION FORM</p>
+				<form action="" class="form-wrapper">
+					<div class="name-section short-form child-form-wrapper">
+						<label for="name">Name :</label>
+						<input type="text" id="name" name="name" />
+					</div>
+					<div
+						class="father-name-section short-form child-form-wrapper"
+					>
+						<label for="name">Father Name :</label>
+						<input type="text" id="name" name="name" />
+					</div>
+					<div class="address-section long-form child-form-wrapper">
+						<label for="address">Address :</label>
+						<input type="text" id="address" name="address" />
+					</div>
+					<div class="gender-section .child-form-wrapper">
+						<label for="" class="gender-title">Gender :</label>
+						<div class="gender-option">
+							<div class="gender-item">
+								<input
+									type="radio"
+									id="male"
+									name="gender"
+									value="male"
+								/>
+								<label for="male">Male</label>
+							</div>
+							<div class="gender-item">
+								<input
+									type="radio"
+									id="female"
+									name="gender"
+									value="female"
+								/>
+								<label for="female">Female</label>
+							</div>
+						</div>
+					</div>
+					<div class="state-section short-form child-form-wrapper">
+						<label for="state">State :</label>
+						<input type="text" id="state" name="state" />
+					</div>
+					<div class="city-section short-form child-form-wrapper">
+						<label for="city">City :</label>
+						<input type="text" id="city" name="city" />
+					</div>
+					<div class="dob-section long-form child-form-wrapper">
+						<label for="dob">DOB :</label>
+						<input type="text" id="dob" name="dob" />
+					</div>
+					<div class="pincode-section long-form child-form-wrapper">
+						<label for="pincode">Pincode :</label>
+						<input type="text" id="pincode" name="pincode" />
+					</div>
+					<div class="course-section long-form child-form-wrapper">
+						<label for="course">Course :</label>
+						<select name="course" id="course">
+							<option value="" selected disabled hidden></option>
+							<option value="copa">
+								Computer Operator & Pragramming Assistant
+							</option>
+							<option value="designer">Designer</option>
+							<option value="marketing">Marketing</option>
+						</select>
+					</div>
+					<div class="email-section long-form child-form-wrapper">
+						<label for="email">Email :</label>
+						<input type="email" id="email" name="email" />
+					</div>
+					<div class="btn-wrapper">
+						<button type="reset" class="btn btn-reset">
+							Reset All
+						</button>
+
+						<button type="submit" class="btn btn-submit">
+							Submit Form
+						</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</body>
+</html>

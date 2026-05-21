@@ -546,7 +546,6 @@
 	flex-direction: row;
 	justify-content: center;
 	gap: 20px;
-	flex-wrap: wrap;
 }
 
 .pricing-app .pricing-wrapper .pricing-table-wrapper .pricing-table {
